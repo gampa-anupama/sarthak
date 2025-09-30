@@ -11,6 +11,8 @@ This solution is particularly useful for:
 
 ---
 
+# Satark – Intelligent Document and Image Analysis System
+
 ## Installation Instructions
 
 ### 1. Clone the repository
@@ -79,41 +81,46 @@ We welcome contributions to make Satark better.
 
 Steps to contribute:
 
-Fork this repository
-
-Create a new branch
-
 bash
 Copy code
+# Fork this repository
 git checkout -b feature-name
-Commit your changes
-
-bash
-Copy code
 git commit -m "Added feature-name"
-Push your branch
-
-bash
-Copy code
 git push origin feature-name
-Open a Pull Request
+Then, open a Pull Request.
 
 License Information
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute the code with proper attribution.
 
 Acknowledgments
-Ollama for providing local LLM support
+Ollama → for providing local LLM support
 
-Mistral, Llama, and Gemma models for powering natural language understanding
+Mistral, Llama, and Gemma models → for powering natural language understanding
 
-FAISS for efficient similarity search
+FAISS → for efficient similarity search
 
-pytesseract for OCR-based text extraction
+pytesseract → for OCR-based text extraction
 
-Open-source contributors and the research community for continuous improvements
+Open-source contributors and the research community → for continuous improvements
 
 yaml
 Copy code
 
 ---
+
+ This will look **perfectly aligned** and professional on GitHub.  
+
+Do you want me to also **add badges (like Python version, license, Ollama, FAISS, etc.)** at the top of the README for an even better UI?
+
+
+
+
+
+
+
+
+
+
+
+
