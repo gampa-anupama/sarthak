@@ -53,7 +53,8 @@ Place your .docx or image files inside the input/ folder.
 
 Run the extraction script:
 
-```bash
+bash```
+
 Copy code
 python scripts/process.py
 This will generate:
