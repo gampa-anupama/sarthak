@@ -19,15 +19,16 @@ The project leverages **OCR (Optical Character Recognition)**, **FAISS (Vector D
 git clone https://github.com/your-username/satark.git
 cd satark
 Create and activate a virtual environment
-
-bash
+```
+```bash
 Copy code
 python -m venv venv
 On Windows:
 
-bash
+```bash
 Copy code
 venv\Scripts\activate
+```
 On Mac/Linux:
 
 bash
@@ -60,37 +61,20 @@ Run the extraction script:
 bash
 Copy code
 python scripts/process.py
+```
 This will generate:
-
 Extracted text → output/extracted_text.txt
-
 Metadata → output/chunks_metadata.json
-
 FAISS index → output/faiss_index.idx
-
 Start the interactive query application:
 
-bash
+```bash
 Copy code
 python scripts/app.py
+```
 Ask natural language questions about your documents/images, e.g.:
-
 "Summarize the document in 3 points"
-
 "What are the key entities mentioned in the image text?"
-
-Contributing
-We welcome contributions to make Satark better.
-
-Steps to contribute:
-
-bash
-Copy code
-# Fork this repository
-git checkout -b feature-name
-git commit -m "Added feature-name"
-git push origin feature-name
-Then, open a Pull Request.
 
 License
 This project is licensed under the MIT License.
@@ -98,16 +82,8 @@ You are free to use, modify, and distribute the code with proper attribution.
 
 Acknowledgments
 Ollama → for providing local LLM support
-
 Mistral, Llama, and Gemma models → for powering natural language understanding
-
 FAISS → for efficient similarity search
-
 pytesseract → for OCR-based text extraction
-
 Open-source contributors and the research community → for continuous improvements
-
-yaml
-Copy code
-
----
+```
