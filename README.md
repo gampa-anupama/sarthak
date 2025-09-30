@@ -4,21 +4,22 @@
 Satark is an AI-powered system designed to extract, process, and analyze content from multiple formats such as `.docx` files and images.  
 The project leverages **OCR (Optical Character Recognition)**, **FAISS (Vector Database)**, and **Ollama LLMs** to enable efficient text extraction, chunking, semantic search, and intelligent question answering.
 
-This solution is particularly useful for:
-- Document intelligence  
-- Compliance & auditing  
-- Research analysis  
-- Accessibility use cases  
+### Key Use Cases
+- Document intelligence
+- Compliance & auditing
+- Research analysis
+- Accessibility use cases
 
 ---
 
 ## Installation Instructions
 
-### 1. Clone the repository
+1. **Clone the repository**
 ```bash
 git clone https://github.com/your-username/satark.git
 cd satark
-2. Create and activate a virtual environment
+Create and activate a virtual environment
+
 bash
 Copy code
 python -m venv venv
@@ -32,11 +33,13 @@ On Mac/Linux:
 bash
 Copy code
 source venv/bin/activate
-3. Install dependencies
+Install dependencies
+
 bash
 Copy code
 pip install -r requirements.txt
-4. Install and set up Ollama
+Install and set up Ollama
+
 Download Ollama from Ollama.ai
 
 Pull the desired model (example: Mistral):
@@ -44,7 +47,8 @@ Pull the desired model (example: Mistral):
 bash
 Copy code
 ollama pull mistral
-5. Verify installation
+Verify installation
+
 bash
 Copy code
 python scripts/test_pipeline.py
@@ -53,8 +57,7 @@ Place your .docx or image files inside the input/ folder.
 
 Run the extraction script:
 
-bash```
-
+bash
 Copy code
 python scripts/process.py
 This will generate:
@@ -70,13 +73,13 @@ Start the interactive query application:
 bash
 Copy code
 python scripts/app.py
-Ask natural language questions about your documents/images, for example:
+Ask natural language questions about your documents/images, e.g.:
 
 "Summarize the document in 3 points"
 
 "What are the key entities mentioned in the image text?"
 
-Contributing to the Project
+Contributing
 We welcome contributions to make Satark better.
 
 Steps to contribute:
@@ -89,7 +92,7 @@ git commit -m "Added feature-name"
 git push origin feature-name
 Then, open a Pull Request.
 
-License Information
+License
 This project is licensed under the MIT License.
 You are free to use, modify, and distribute the code with proper attribution.
 
@@ -104,14 +107,7 @@ pytesseract → for OCR-based text extraction
 
 Open-source contributors and the research community → for continuous improvements
 
-pgsql
+yaml
 Copy code
 
 ---
-
-
-
-
-
-
-
