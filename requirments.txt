@@ -1,0 +1,14 @@
+fastapi==0.111.0           # Web framework
+uvicorn[standard]==0.23.2  # ASGI server to run FastAPI
+
+python-docx==0.8.11        # For reading DOCX files
+Pillow==10.1.0             # For image handling (OCR preprocessing)
+
+opencv-python-headless==4.8.1.78  # OpenCV for image preprocessing
+pytesseract==0.3.10        # OCR
+
+numpy==1.26.2              # Numerical operations
+sentence-transformers==2.2.2  # Embedding model
+faiss-cpu==1.7.4           # FAISS vector search
+
+ollama==0.1.11             # Ollama local LLM client
