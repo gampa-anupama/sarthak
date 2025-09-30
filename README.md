@@ -30,8 +30,7 @@ Copy code
 venv\Scripts\activate
 ```
 On Mac/Linux:
-
-bash
+```bash
 Copy code
 source venv/bin/activate
 Install dependencies
@@ -40,32 +39,37 @@ bash
 Copy code
 pip install -r requirements.txt
 Install and set up Ollama
-
+```
 Download Ollama from Ollama.ai
 
 Pull the desired model (example: Mistral):
 
-bash
+```bash
 Copy code
 ollama pull mistral
 Verify installation
-
-bash
+```
+```bash
 Copy code
 python scripts/test_pipeline.py
+```
 Usage Guidelines
 Place your .docx or image files inside the input/ folder.
 
 Run the extraction script:
 
-bash
+```bash
 Copy code
 python scripts/process.py
 ```
 This will generate:
+
 Extracted text → output/extracted_text.txt
+
 Metadata → output/chunks_metadata.json
+
 FAISS index → output/faiss_index.idx
+
 Start the interactive query application:
 
 ```bash
@@ -73,17 +77,27 @@ Copy code
 python scripts/app.py
 ```
 Ask natural language questions about your documents/images, e.g.:
+
 "Summarize the document in 3 points"
+
 "What are the key entities mentioned in the image text?"
 
 License
+
 This project is licensed under the MIT License.
+
 You are free to use, modify, and distribute the code with proper attribution.
 
 Acknowledgments
+
 Ollama → for providing local LLM support
+
 Mistral, Llama, and Gemma models → for powering natural language understanding
+
 FAISS → for efficient similarity search
+
 pytesseract → for OCR-based text extraction
+
 Open-source contributors and the research community → for continuous improvements
+
 ```
