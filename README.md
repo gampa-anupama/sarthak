@@ -1,7 +1,8 @@
 # Satark – Intelligent Document and Image Analysis System
 
 ## Project Overview
-Satark is an AI-powered system designed to extract, process, and analyze content from multiple formats such as `.docx` files and images. The project leverages **OCR (Optical Character Recognition)**, **FAISS (Vector Database)**, and **Ollama LLMs** to enable efficient text extraction, chunking, semantic search, and intelligent question answering.  
+Satark is an AI-powered system designed to extract, process, and analyze content from multiple formats such as `.docx` files and images.  
+The project leverages **OCR (Optical Character Recognition)**, **FAISS (Vector Database)**, and **Ollama LLMs** to enable efficient text extraction, chunking, semantic search, and intelligent question answering.
 
 This solution is particularly useful for:
 - Document intelligence  
@@ -10,8 +11,6 @@ This solution is particularly useful for:
 - Accessibility use cases  
 
 ---
-
-# Satark – Intelligent Document and Image Analysis System
 
 ## Installation Instructions
 
@@ -54,7 +53,7 @@ Place your .docx or image files inside the input/ folder.
 
 Run the extraction script:
 
-bash
+```bash
 Copy code
 python scripts/process.py
 This will generate:
@@ -104,19 +103,10 @@ pytesseract → for OCR-based text extraction
 
 Open-source contributors and the research community → for continuous improvements
 
-yaml
+pgsql
 Copy code
 
 ---
-
- This will look **perfectly aligned** and professional on GitHub.  
-
-Do you want me to also **add badges (like Python version, license, Ollama, FAISS, etc.)** at the top of the README for an even better UI?
-
-
-
-
-
 
 
 
